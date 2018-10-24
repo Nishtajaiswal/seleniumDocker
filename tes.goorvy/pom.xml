@@ -50,7 +50,8 @@
                 </dependencies>
             </plugin>
             <!-- Define Groovy Eclipse Compiler again and set extensions=true. Thanks to this, plugin will -->
-            <!-- enhance default build life cycle with an extra phase which adds additional Groovy source folders -->
+
+                 <!-- enhance default build life cycle with an extra phase which adds additional Groovy source folders -->
             <!-- Thanks to this, Clover will be able to find your Groovy files. It works with Maven 3.x -->
             <plugin>
                 <groupId>org.codehaus.groovy</groupId>
@@ -114,6 +115,11 @@
             </goals>
         </execution>
     </executions>
+                           
+    <groupId>io.fabric8</groupId>
+     <artifactId>docker-maven-plugin</artifactId>
+      <version>0.16.7</version>
+                           
     <configuration>
               <docker.registry>https://hub.docker.com/r/nj1603</docker.registry>
              <auth>
