@@ -67,6 +67,11 @@
                 <artifactId>clover-maven-plugin</artifactId>
                 <version>4.1.1</version>
               </plugin>
+                 <plugin>
+                           <groupId>io.fabric8</groupId>
+                          <artifactId>docker-maven-plugin</artifactId>
+                           <version>0.16.7</version>
+                </plugin>
         </plugins>
         <pluginManagement>
         	<plugins>
@@ -116,9 +121,7 @@
         </execution>
     </executions>
                            
-    <groupId>io.fabric8</groupId>
-     <artifactId>docker-maven-plugin</artifactId>
-      <version>0.16.7</version>
+   
                            
     <configuration>
               <docker.registry>https://hub.docker.com/r/nj1603</docker.registry>
