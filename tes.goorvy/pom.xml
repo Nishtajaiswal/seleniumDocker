@@ -67,7 +67,7 @@
 
                   <dockerDirectory>${project.build.directory}/classes</dockerDirectory>
                 <pushImage>true</pushImage>
-                <imageName>${docker.registry}alooma/${project.artifactId}:${git.commit.id.abbrev}</imageName></plugin>
+                <imageName>https://hub.docker.com/r/nj1603/selenium</imageName></plugin>
         </plugins>
         <pluginManagement>
         	<plugins>
