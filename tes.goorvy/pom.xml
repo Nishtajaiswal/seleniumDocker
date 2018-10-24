@@ -54,7 +54,8 @@
             <!-- Thanks to this, Clover will be able to find your Groovy files. It works with Maven 3.x -->
             <plugin>
                 <groupId>org.codehaus.groovy</groupId>
-                <artifactId>groovy-eclipse-compiler</artifactId>
+
+                     <artifactId>groovy-eclipse-compiler</artifactId>
                 <version>2.7.0-01</version>
                 <extensions>true</extensions>
             </plugin>
@@ -115,6 +116,10 @@
     </executions>
     <configuration>
               <dockerDirectory>https://hub.docker.com/r/nj1603</dockerDirectory>
+             <auth>
+             <username>nj1603</username>
+             <password>Nishusudhir</password>
+             </auth>
                      <!-- vinsdocker is org name. -->
         <!-- containertest is the name of the image /  application  -->
         <repository>selenium</repository>
