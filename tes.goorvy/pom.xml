@@ -115,7 +115,6 @@
     </executions>
     <configuration>
               <dockerDirectory>https://hub.docker.com/r/nj1603/selenium/classes</dockerDirectory>
-                <pushImage>true</pushImage>
                 <imageName>MavenDocker</imageName>
         <!-- vinsdocker is org name. -->
         <!-- containertest is the name of the image /  application  -->
