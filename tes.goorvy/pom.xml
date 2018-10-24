@@ -64,9 +64,7 @@
                 <groupId>com.atlassian.maven.plugins</groupId>
                 <artifactId>clover-maven-plugin</artifactId>
                 <version>4.1.1</version>
-
-                  <dockerDirectory>${project.build.directory}/classes</dockerDirectory>
-                <pushImage>true</pushImage>
+                 <pushImage>true</pushImage>
                 <imageName>https://hub.docker.com/r/nj1603/selenium</imageName></plugin>
         </plugins>
         <pluginManagement>
