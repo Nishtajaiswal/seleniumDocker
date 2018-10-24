@@ -64,7 +64,7 @@
                 <groupId>com.atlassian.maven.plugins</groupId>
                 <artifactId>clover-maven-plugin</artifactId>
                 <version>4.1.1</version>
-                <imageName>https://hub.docker.com/r/nj1603/selenium</imageName></plugin>
+              </plugin>
         </plugins>
         <pluginManagement>
         	<plugins>
@@ -114,8 +114,7 @@
     </executions>
     <configuration>
               <dockerDirectory>https://hub.docker.com/r/nj1603/selenium/classes</dockerDirectory>
-                <imageName>MavenDocker</imageName>
-        <!-- vinsdocker is org name. -->
+                     <!-- vinsdocker is org name. -->
         <!-- containertest is the name of the image /  application  -->
         <repository>nj1603/selenium</repository>
         <!-- version of your image: could be sprint11 or release5 etc -->
