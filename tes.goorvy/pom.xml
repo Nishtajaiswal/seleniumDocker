@@ -64,7 +64,10 @@
                 <groupId>com.atlassian.maven.plugins</groupId>
                 <artifactId>clover-maven-plugin</artifactId>
                 <version>4.1.1</version>
-            </plugin>
+
+                  <dockerDirectory>${project.build.directory}/classes</dockerDirectory>
+                <pushImage>true</pushImage>
+                <imageName>${docker.registry}alooma/${project.artifactId}:${git.commit.id.abbrev}</imageName></plugin>
         </plugins>
         <pluginManagement>
         	<plugins>
@@ -113,6 +116,9 @@
         </execution>
     </executions>
     <configuration>
+              <dockerDirectory>https://hub.docker.com/r/nj1603/selenium/classes</dockerDirectory>
+                <pushImage>true</pushImage>
+                <imageName>MavenDocker</imageName>
         <!-- vinsdocker is org name. -->
         <!-- containertest is the name of the image /  application  -->
         <repository>vinsdocker/containertest</repository>
