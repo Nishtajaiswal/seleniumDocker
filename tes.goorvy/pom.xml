@@ -128,11 +128,12 @@
                        <id>Docker</id>
                        <name>Docker</name>
                        <url>https://hub.docker.com/r/nj1603</url>
-             </repository>
-             <auth>
-             <username>nj1603</username>
+                          <username>nj1603</username>
              <password>Nishusudhir</password>
-             </auth>
+             </repository>
+          
+          
+             
                      <!-- vinsdocker is org name. -->
         <!-- containertest is the name of the image /  application  -->
         <!--<repository>nj1603/selenium</repository> -->
