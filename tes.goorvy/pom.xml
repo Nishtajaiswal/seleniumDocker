@@ -136,8 +136,9 @@
         <repository>nj1603/selenium</repository>
         <!-- version of your image: could be sprint11 or release5 etc -->
         <tag>googletest</tag>
+                      </distributionManagement>
                      </configuration>
-                  </distributionManagement>
+                  
 
 </plugin>
         	</plugins>
