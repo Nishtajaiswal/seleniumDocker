@@ -123,7 +123,7 @@
     </execution>
                            </executions>
                            <configuration>
-             <distributionManagement>
+             
               <repository>
                        <url>https://hub.docker.com/r/nj1603</url>
              </repository>
