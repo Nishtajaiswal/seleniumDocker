@@ -120,8 +120,9 @@
                 <goal>push</goal>
             </goals>
      
-   <!--  </execution>
-    </executions -->
+    </execution>
+                           </executions>
+                           <configuration>
              <distributionManagement>
               <repository>
                        <url>https://hub.docker.com/r/nj1603</url>
@@ -135,9 +136,8 @@
         <repository>nj1603/selenium</repository>
         <!-- version of your image: could be sprint11 or release5 etc -->
         <tag>googletest</tag>
-                      </distributionManagement>
-                   </execution>
-                           </executions>
+                     <configuration>
+                  
 
 </plugin>
         	</plugins>
