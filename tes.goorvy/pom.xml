@@ -121,7 +121,7 @@
             </goals>
         </execution>
     </executions>
-    <configuration>
+   
              <distributionManagement>
               <repository>
                        <url>https://hub.docker.com/r/nj1603</url>
@@ -136,7 +136,7 @@
         <!-- version of your image: could be sprint11 or release5 etc -->
         <tag>googletest</tag>
                       </distributionManagement>
-    </configuration>
+
 </plugin>
         	</plugins>
         </pluginManagement>
