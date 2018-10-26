@@ -122,7 +122,9 @@
         </execution>
     </executions>
     <configuration>
-              <repository>https://hub.docker.com/r/nj1603</repository>
+              <repository>
+                       <url>https://hub.docker.com/r/nj1603</url>
+             </repository>
              <auth>
              <username>nj1603</username>
              <password>Nishusudhir</password>
