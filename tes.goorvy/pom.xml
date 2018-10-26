@@ -127,7 +127,7 @@
               <repository>
                        <id>Docker</id>
                        <name>Docker</name>
-                       <url>https://hub.docker.com/r/nj1603</url>
+                       <url>https://hub.docker.com</url>
                           <username>nj1603</username>
              <password>Nishusudhir</password>
              </repository>
