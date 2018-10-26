@@ -6,9 +6,9 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Groovy Eclipse Plug-in Sample for Maven 3</name>
-<pluginGroups>  
+<!--<pluginGroups>  
     <pluginGroup>com.spotify</pluginGroup>  
-</pluginGroups>
+</pluginGroups> -->
     <!-- Dependencies for test execution and runtime -->
     <dependencies>
         <dependency>
