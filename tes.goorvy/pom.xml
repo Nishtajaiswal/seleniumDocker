@@ -125,6 +125,8 @@
                            <configuration>
              <distributionManagement>
               <repository>
+                       <id>Docker</id>
+                       <name>Docker</name>
                        <url>https://hub.docker.com/r/nj1603</url>
              </repository>
              <auth>
