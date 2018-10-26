@@ -111,17 +111,16 @@
         		<plugin>
     <groupId>com.spotify</groupId>
     <artifactId>dockerfile-maven-plugin</artifactId>
-     <version>1.4.3</version>
-        <executions>
+    <version>1.3.5</version>
+    <executions>
         <execution>
             <id>default</id>
             <goals>
-                 <goal>create</goal>
                 <goal>build</goal>
                 <goal>push</goal>
             </goals>
         </execution>
-    </executions>             
+    </executions>
     <configuration>
               <repository>https://hub.docker.com/r/nj1603</repository>
              <auth>
